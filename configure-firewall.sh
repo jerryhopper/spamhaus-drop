@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 # Helper command to manipulate both the IPv4 and IPv6 tables.
