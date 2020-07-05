@@ -36,7 +36,7 @@ is_command() {
 }
 
 
-if !is_command iptables ; then
+if ! is_command iptables ; then
     echo "iptables not found, exiting..."
     exit 1;
 fi
